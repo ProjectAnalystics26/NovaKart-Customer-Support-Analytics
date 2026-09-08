@@ -1,0 +1,37 @@
+﻿Agent_ID,Agent_Name,Team,Supervisor,Agent_Location,Tenure_Months,Shift
+AG001,Aarav,Payments & Refunds,Meera N,Hyderabad,49,Day
+AG002,Aditi,Payments & Refunds,Meera N,Hyderabad,6,Day
+AG003,Akash,Payments & Refunds,Meera N,Hyderabad,35,Day
+AG004,Ananya,Payments & Refunds,Meera N,Hyderabad,20,Evening
+AG005,Arjun,Payments & Refunds,Meera N,Hyderabad,41,Evening
+AG006,Divya,Payments & Refunds,Meera N,Hyderabad,26,Evening
+AG007,Farhan,Payments & Refunds,Meera N,Hyderabad,48,Night
+AG008,Harsha,Payments & Refunds,Meera N,Hyderabad,18,Night
+AG009,Ishita,Payments & Refunds,Meera N,Hyderabad,6,Night
+AG010,Karan,Orders & Delivery,Arjun K,Bengaluru,50,Day
+AG011,Kavya,Orders & Delivery,Arjun K,Bengaluru,48,Day
+AG012,Manoj,Orders & Delivery,Arjun K,Bengaluru,43,Day
+AG013,Meera,Orders & Delivery,Arjun K,Bengaluru,5,Evening
+AG014,Neha,Orders & Delivery,Arjun K,Bengaluru,50,Evening
+AG015,Nikhil,Orders & Delivery,Arjun K,Bengaluru,36,Evening
+AG016,Pooja,Orders & Delivery,Arjun K,Bengaluru,41,Night
+AG017,Rahul,Orders & Delivery,Arjun K,Bengaluru,49,Night
+AG018,Riya,Orders & Delivery,Arjun K,Bengaluru,50,Night
+AG019,Rohan,Product Support,Kavya R,Pune,7,Day
+AG020,Sakshi,Product Support,Kavya R,Pune,44,Day
+AG021,Sameer,Product Support,Kavya R,Pune,16,Day
+AG022,Sneha,Product Support,Kavya R,Pune,15,Evening
+AG023,Tanvi,Product Support,Kavya R,Pune,43,Evening
+AG024,Varun,Product Support,Kavya R,Pune,15,Evening
+AG025,Vikram,Product Support,Kavya R,Pune,9,Night
+AG026,Yamini,Product Support,Kavya R,Pune,26,Night
+AG027,Zoya,Product Support,Kavya R,Pune,23,Night
+AG028,Aditya,Technical & Account,Rohit S,Chennai,8,Day
+AG029,Bhavna,Technical & Account,Rohit S,Chennai,45,Day
+AG030,Charan,Technical & Account,Rohit S,Chennai,32,Day
+AG031,Deepa,Technical & Account,Rohit S,Chennai,44,Evening
+AG032,Gautam,Technical & Account,Rohit S,Chennai,15,Evening
+AG033,Hema,Technical & Account,Rohit S,Chennai,12,Evening
+AG034,Imran,Technical & Account,Rohit S,Chennai,48,Night
+AG035,Jaya,Technical & Account,Rohit S,Chennai,9,Night
+AG036,Kiran,Technical & Account,Rohit S,Chennai,6,Night
