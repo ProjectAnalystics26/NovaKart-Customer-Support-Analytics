@@ -97,5 +97,19 @@ The Power BI report uses an Import connection to a local SQL Server database. To
 The PBIX can also be opened to review the report design, data model, DAX measures, and existing imported data.
 
 ## Portfolio Disclaimer
+NovaKart E-Commerce Pvt Ltd and the dataset are fictional. This project demonstrates analytical and business-analysis skills and does not represent results from a real company or production deployment.
 
+## Dashboard Preview
+
+### Executive Overview
+![Executive Overview](06_Documentation/Executive_Overview.png)
+
+### SLA Analysis
+![SLA Analysis](06_Documentation/SLA_Analysis.png)
+
+### Agent Performance
+![Agent Performance](06_Documentation/Agent_Performance.png)
+
+### Root Cause Analysis
+![Root Cause Analysis](06_Documentation/Root_Cause_Analysis.png)
 NovaKart E-Commerce Pvt Ltd and the dataset are fictional. This project demonstrates analytical and business-analysis skills and does not represent results from a real company or production deployment.
