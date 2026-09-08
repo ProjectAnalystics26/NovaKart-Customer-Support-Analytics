@@ -1,0 +1,1 @@
+Create database NovaKart_Analytics
