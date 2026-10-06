@@ -20,7 +20,7 @@ The objective is to identify high-risk operational segments and support evidence
 | Period | January–June 2026 |
 | Tools | Excel, Power Query, SQL Server, SSMS, Power BI |
 | Data model | Tickets, Agent Master, SLA Master, Date Table |
-| Dashboard | 4 interactive pages |
+| Dashboard | 5 interactive pages |
 | Documentation | Business Requirements Document |
 
 ## Project Workflow
@@ -41,6 +41,7 @@ Raw Excel Data
 | SLA Analysis | Compare SLA breaches by team, shift, priority, and month. |
 | Agent Performance | Review agent workload, SLA breach rate, resolution time, CSAT, escalation, and reopen performance. |
 | Root Cause Analysis | Investigate category–shift and team–priority combinations and compare CSAT by SLA status. |
+| WFM Planning Scenario | Illustrative workforce-planning scenario covering forecast workload, AHT, productive staffing, shrinkage-adjusted staffing, available staffing, and staffing gap. |
 
 ## Key Findings
 
@@ -60,6 +61,21 @@ Raw Excel Data
 | Average CSAT: SLA Met vs Breached | 4.51 vs 3.16 |
 
 **Business interpretation:** Refund-related operations, particularly during the Evening shift, are priority areas for further investigation. SLA-breached tickets are associated with lower customer satisfaction, although the analysis does not establish causation.
+
+### Illustrative WFM Planning Scenario
+
+The project also includes a workforce-planning scenario based on simulated assumptions rather than historical workforce data.
+
+- Forecast Tickets: 1,800
+- Assumed Ticket AHT: 20 minutes
+- Forecast Workload: 36,000 minutes
+- Productive Minutes per Agent: 9,240
+- Productive Staff Required: 4
+- Shrinkage-adjusted Scheduled Staff Required: 6
+- Scenario Available Staff: 5
+- Staffing Gap: -1 agent
+
+These values are provided only to demonstrate WFM concepts such as forecasting, workload calculation, staffing, shrinkage, and capacity-gap analysis.
 
 ## Data Cleaning & Validation
 
@@ -82,9 +98,10 @@ The project files are organized into the following folders:
 |---|---|
 | `01_Raw_Data` | Original fictional source workbook |
 | `02 - Cleaned_Data` | Cleaned Excel workbook and CSV files |
-| `03 -SQL` | Database setup and SQL analysis scripts |
-| `04 -Power_BI` | Completed Power BI dashboard |
+| `03 - SQL` | Database setup and SQL analysis scripts |
+| `04 - Power_BI` | Completed 5-page Power BI dashboard, including the illustrative WFM Planning Scenario |
 | `05_Business_Requirements` | Business Requirements Document |
+| `06_Documentation` | Dashboard screenshots, including the WFM Planning Scenario |
 
 The repository also contains this `README.md` file.
 
@@ -113,3 +130,7 @@ NovaKart E-Commerce Pvt Ltd and the dataset are fictional. This project demonstr
 ### Root Cause Analysis
 ![Root Cause Analysis](06_Documentation/Root_Cause_Analysis.png)
 NovaKart E-Commerce Pvt Ltd and the dataset are fictional. This project demonstrates analytical and business-analysis skills and does not represent results from a real company or production deployment.
+
+### WFM Planning Scenario
+![WFM Planning Scenario](06_Documentation/WFM_Planning_Scenario.png)
+Illustrative workforce-planning scenario using simulated AHT, shrinkage, staffing-capacity, and availability assumptions. These workforce inputs do not represent historical NovaKart workforce data.
